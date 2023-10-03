@@ -1,5 +1,7 @@
 import NavItem from "./NavItem";
 import { AiOutlineCloseCircle } from 'react-icons/ai'
+import PropTypes from 'prop-types';
+
 
 const routes = [
   {
@@ -35,5 +37,9 @@ const Nav = ({handleClick}) => {
     </div>
   );
 };
+
+Nav.propTypes = {
+  handleClick: PropTypes.func,
+}
 
 export default Nav;
