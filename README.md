@@ -1,8 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Folder Structure
+### src 
+- main.jsx
 
-Currently, two official plugins are available:
+### src-> assets 
+- images/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### src-> pages
+- Root/Root.jsx
+- Home/Home.jsx 
+- NewDetails/NewDetails.jsx
+- Login/Login.jsx 
+- Regester/Regester.jsx 
+- ErrorPage/ErrorPage.jsx 
+
+### src-> layouts
+- Header/Header.jsx
+- Slider/Slider.jsx 
+- Navbar/Navbar.jsx 
+- LeftSideBar/LeftSideBar.jsx
+- RightSideBar/RightSideBar.jsx 
+- New/New.jsx 
+- NewDetails/NewDetails.jsx
+- LoginForm/LoginForm.jsx 
+- RegesterForm/RegesterForm.jsx
+
+### src-> authPrivider
+- authPrivider.jsx
+
+### src-> routes
+- routes.jsx
