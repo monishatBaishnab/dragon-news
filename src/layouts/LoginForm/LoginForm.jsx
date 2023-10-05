@@ -24,6 +24,7 @@ const LoginForm = () => {
             logIn(email, password)
             .then(res => {
                 console.log(res.user);
+                console.log(location.state);
                 location.state !== null ? navigate(location.state) : navigate('/');
             })
             .catch(err => {
