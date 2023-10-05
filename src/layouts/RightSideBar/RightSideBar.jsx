@@ -5,7 +5,7 @@ import swimming2 from '../../assets/images/qZone3.png'
 
 const RightSideBar = () => {
     return (
-        <div>
+        <div className='sticky top-5 max-h-screen overflow-scroll '>
             <div>
                 <h3 className='text-2xl font-semibold mb-7'>Login With</h3>
                 <button className='px-4 py-2 rounded-md border border-blue-500 flex items-center w-full justify-center gap-2 text-blue-500'><BsGoogle />Login with Google</button>

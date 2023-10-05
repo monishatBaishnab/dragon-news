@@ -5,7 +5,7 @@ import Slider from "../../layouts/Slider/Slider";
 
 const Home = () => {
     return (
-        <div className="">
+        <div className="c-container">
             <Header />
             <Slider />
             <Navbar />

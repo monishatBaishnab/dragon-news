@@ -3,7 +3,6 @@ import useFetchNews from "../../hooks/useFetchNews";
 
 const NewsContainer = () => {
     const allNews = useFetchNews();
-    console.log(allNews);
     return (
         <div>
             {

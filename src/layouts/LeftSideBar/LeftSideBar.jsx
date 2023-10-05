@@ -9,7 +9,7 @@ const LeftSideBar = () => {
     const filterNews = news.filter(fnews => fnews?.others_info?.is_todays_pick === true);
 
     return (
-        <div>
+        <div className="sticky top-5 max-h-screen overflow-scroll">
             <h4 className="text-xl text-c-dark-300 font-medium mb-5">All Caterogy</h4>
             <ul>
                 {
