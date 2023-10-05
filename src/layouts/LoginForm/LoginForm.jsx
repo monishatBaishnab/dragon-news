@@ -24,11 +24,11 @@ const LoginForm = () => {
             logIn(email, password)
             .then(res => {
                 console.log(res.user);
+                location.state !== null ? navigate(location.state) : navigate('/');
             })
             .catch(err => {
                 console.log(err.message);
             })
-            location.state !== null ? navigate(location.state) : navigate('/');
         }
         else {
             errorNotify();
